@@ -58,3 +58,20 @@ cargo install --locked boundless-cli
 source ~/.bashrc
 boundless -h
 
+
+### 4. ⚙️ Compose Optimization (Single GPU)
+
+```bash
+nano compose.yml
+```
+
+- Increase CPU/RAM for:
+  - `x-exec-agent-common`
+  - `gpu_prove_agent0`
+
+Example:
+```yaml
+  cpus: 4
+  mem_limit: 6G
+```
+
