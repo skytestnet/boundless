@@ -23,3 +23,9 @@ chmod +x install_prover.sh
 
 # Run the installer
 ./install_prover.sh
+
+### 2. Clone
+
+git clone https://github.com/boundless-xyz/boundless
+cd boundless
+git checkout release-0.11
