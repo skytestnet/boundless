@@ -75,3 +75,16 @@ Example:
   mem_limit: 6G
 ```
 
+---
+
+## 🚀 Run Bento for Test
+
+```bash
+just bento             # Run local proving infra
+just bento logs        # Logs
+RUST_LOG=info bento_cli -c 32  # Run proof
+```
+
+🔍 Use `nvtop` in another terminal to monitor GPU usage.
+
+---
